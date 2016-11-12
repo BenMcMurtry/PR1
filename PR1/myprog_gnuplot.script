@@ -1,0 +1,7 @@
+# myprog_gnuplot.script
+set size square
+set xrange [-1.2:1.2]
+set yrange [-1.2:1.2]
+set style line 1 lc rgb '#0060ad' lt 1 lw 2 pt 7 ps 1.5   # --- blue
+plot 'myprog_gnuplot.dat' using 2:3 with linespoints ls 1
+exit
