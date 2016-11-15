@@ -29,9 +29,9 @@
 //#include "myprog.h"
 
 //includes for GSl
-//#include <gsl/gsl_errno.h>
-//#include <gsl/gsl_matrix.h>
-//#include <gsl/gsl_odeiv2.h>
+#include <gsl/gsl_errno.h>
+#include <gsl/gsl_matrix.h>
+#include <gsl/gsl_odeiv2.h>
 
 /*Definitions for the text file containing the bodies INPUT_FILE*/
 #define INPUT_FILE "/Users/benmcmurtry/Desktop/Physics/Year4/ComputationalPhysicsandModelling/PR1/PR1/OrbitData.txt"
